@@ -265,6 +265,7 @@ ul {
   flex-wrap: wrap;
   gap: 1rem;
 }
+/* for Menu.jsx*/
 .section-center {
   width: 90vw;
   margin: 0 auto;

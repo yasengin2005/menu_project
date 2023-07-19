@@ -1,6 +1,4 @@
-import React from "react";
-
-function Categories({ categories, filterItems }) {
+function Categories({ categories, filterItem }) {
   return (
     <div className="btn-container">
       {categories.map((category) => {
@@ -9,7 +7,7 @@ function Categories({ categories, filterItems }) {
             type="button"
             className="btn"
             key={category}
-            onClick={() => filterItems(category)}
+            onClick={() => filterItem(category)}
           >
             {category}
           </button>
